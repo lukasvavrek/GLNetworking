@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GLResponseStatusCodeHandler Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/GLResponseStatusCodeHandler" class="dashAnchor"></a>
+    <a title="GLResponseStatusCodeHandler Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GLResponseStatusCodeHandler Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/GLAsyncResponseStatusCodeHandler.html">GLAsyncResponseStatusCodeHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLAuthHandler.html">GLAuthHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLConnectionStatusDefaultProvider.html">GLConnectionStatusDefaultProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLMulticast.html">GLMulticast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLMulticastDelegate.html">GLMulticastDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLNetworkManager.html">GLNetworkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLNetworkResponseHandler.html">GLNetworkResponseHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLReachability.html">GLReachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLReachabilityMulticastCenter.html">GLReachabilityMulticastCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLRequest.html">GLRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponse.html">GLResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeDefaultHandler.html">GLResponseStatusCodeDefaultHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeHandlerDelegate.html">GLResponseStatusCodeHandlerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeHandlersContainer.html">GLResponseStatusCodeHandlersContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SCNetworkReachabilityStatusProvider.html">SCNetworkReachabilityStatusProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/GLConnectionStatus.html">GLConnectionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLConnectionType.html">GLConnectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLHTTPStatusCode.html">GLHTTPStatusCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLInternetStatus.html">GLInternetStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLNetworkStatus.html">GLNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLServiceStatus.html">GLServiceStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GLAuthDelegate.html">GLAuthDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLConnectionStatusProvider.html">GLConnectionStatusProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLReachabilityDelegate.html">GLReachabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLRequestAuthenticator.html">GLRequestAuthenticator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLResponseStatusCodeHandler.html">GLResponseStatusCodeHandler</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking14GLEmptyHandlera">GLEmptyHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking19GLMulticastCallbacka">GLMulticastCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking26GLRequestCompletedCallbacka">GLRequestCompletedCallback</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GLResponseStatusCodeHandler</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">GLResponseStatusCodeHandler</span><span class="p">:</span> <span class="kd">class</span></code></pre>
+
+                </div>
+              </div>
+            <p>Protocol defining minimal valid HTTP status code handler.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking27GLResponseStatusCodeHandlerP10repetitionSuvp"></a>
+                    <a name="//apple_ref/swift/Property/repetition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking27GLResponseStatusCodeHandlerP10repetitionSuvp">repetition</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of time a request should be retried.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">repetition</span><span class="p">:</span> <span class="kt">UInt</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking27GLResponseStatusCodeHandlerP04httpC5CodesSaySiGvp"></a>
+                    <a name="//apple_ref/swift/Property/httpStatusCodes" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking27GLResponseStatusCodeHandlerP04httpC5CodesSaySiGvp">httpStatusCodes</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Range of serving HTTP status codes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">httpStatusCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking27GLResponseStatusCodeHandlerP6notifyyAA9GLRequestC13activeRequest_yyc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/notify(activeRequest:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking27GLResponseStatusCodeHandlerP6notifyyAA9GLRequestC13activeRequest_yyc10completiontF">notify(activeRequest:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handlers main method that process the request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">notify</span><span class="p">(</span><span class="nv">activeRequest</span><span class="p">:</span> <span class="kt"><a href="../Classes/GLRequest.html">GLRequest</a></span><span class="p">,</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>activeRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Request that is being processed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Completion callback, to pass the flow back to the called.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking27GLResponseStatusCodeHandlerPAAE11shouldRetrySbAA9GLRequestC7request_tF"></a>
+                    <a name="//apple_ref/swift/Method/shouldRetry(request:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking27GLResponseStatusCodeHandlerPAAE11shouldRetrySbAA9GLRequestC7request_tF">shouldRetry(request:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether a processing request should be retried.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">shouldRetry</span><span class="p">(</span><span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/GLRequest.html">GLRequest</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking27GLResponseStatusCodeHandlerPAAE04withC5CodesAaB_pSaySiGKF"></a>
+                    <a name="//apple_ref/swift/Method/withStatusCodes(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking27GLResponseStatusCodeHandlerPAAE04withC5CodesAaB_pSaySiGKF">withStatusCodes(_:)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Extension method
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates duplicate of existing GLResponseStatusCodeHandler.
+Currently it supports only <code>GLResponseStatusCodeHandler</code> instances.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">withStatusCodes</span><span class="p">(</span><span class="n">_</span> <span class="nv">statusCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">])</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">GLResponseStatusCodeHandler</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://lukasvavrek.com" target="_blank" rel="external">Lukáš Vavrek</a>. All rights reserved. (Last updated: 2018-08-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

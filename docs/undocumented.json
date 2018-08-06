@@ -1,0 +1,558 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 11,
+      "symbol": "GLHTTPStatusCode.Continue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 12,
+      "symbol": "GLHTTPStatusCode.SwitchingProtocols",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 13,
+      "symbol": "GLHTTPStatusCode.Processing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 15,
+      "symbol": "GLHTTPStatusCode.Ok",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 16,
+      "symbol": "GLHTTPStatusCode.Created",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 17,
+      "symbol": "GLHTTPStatusCode.Accepted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 18,
+      "symbol": "GLHTTPStatusCode.NonAuthoritativeInformation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 19,
+      "symbol": "GLHTTPStatusCode.NoContent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 20,
+      "symbol": "GLHTTPStatusCode.ResetContent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 21,
+      "symbol": "GLHTTPStatusCode.PartialContent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 22,
+      "symbol": "GLHTTPStatusCode.MultiStatus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 23,
+      "symbol": "GLHTTPStatusCode.AlreadyReported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 24,
+      "symbol": "GLHTTPStatusCode.IMUsed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 26,
+      "symbol": "GLHTTPStatusCode.MultipleChoices",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 27,
+      "symbol": "GLHTTPStatusCode.MovedPermanently",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 28,
+      "symbol": "GLHTTPStatusCode.Found",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 29,
+      "symbol": "GLHTTPStatusCode.SeeOther",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 30,
+      "symbol": "GLHTTPStatusCode.NotModified",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 31,
+      "symbol": "GLHTTPStatusCode.UseProxy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 32,
+      "symbol": "GLHTTPStatusCode.SwitchProxy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 33,
+      "symbol": "GLHTTPStatusCode.TemporaryRedirect",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 34,
+      "symbol": "GLHTTPStatusCode.PermanentRedirect",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 36,
+      "symbol": "GLHTTPStatusCode.BadRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 37,
+      "symbol": "GLHTTPStatusCode.Unauthorized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 38,
+      "symbol": "GLHTTPStatusCode.PaymentRequired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 39,
+      "symbol": "GLHTTPStatusCode.Forbidden",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 40,
+      "symbol": "GLHTTPStatusCode.NotFound",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 41,
+      "symbol": "GLHTTPStatusCode.MethodNotAllowed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 42,
+      "symbol": "GLHTTPStatusCode.NotAcceptable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 43,
+      "symbol": "GLHTTPStatusCode.ProxyAuthenticationRequired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 44,
+      "symbol": "GLHTTPStatusCode.RequestTimeout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 45,
+      "symbol": "GLHTTPStatusCode.Conflict",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 46,
+      "symbol": "GLHTTPStatusCode.Gone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 47,
+      "symbol": "GLHTTPStatusCode.LengthRequired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 48,
+      "symbol": "GLHTTPStatusCode.PreconditionFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 49,
+      "symbol": "GLHTTPStatusCode.PayloadTooLarge",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 50,
+      "symbol": "GLHTTPStatusCode.URITooLong",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 51,
+      "symbol": "GLHTTPStatusCode.UnsupportedMediaType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 52,
+      "symbol": "GLHTTPStatusCode.RangeNotSatisfiable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 53,
+      "symbol": "GLHTTPStatusCode.ExpectationFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 54,
+      "symbol": "GLHTTPStatusCode.ImATeapot",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 55,
+      "symbol": "GLHTTPStatusCode.MisdirectRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 56,
+      "symbol": "GLHTTPStatusCode.UnprocessableEntity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 57,
+      "symbol": "GLHTTPStatusCode.Locked",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 58,
+      "symbol": "GLHTTPStatusCode.FailedDependency",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 59,
+      "symbol": "GLHTTPStatusCode.UpgradeRequired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 60,
+      "symbol": "GLHTTPStatusCode.PreconditionRequired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 61,
+      "symbol": "GLHTTPStatusCode.TooManyRequests",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 62,
+      "symbol": "GLHTTPStatusCode.RequestHeaderFieldsTooLarge",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 63,
+      "symbol": "GLHTTPStatusCode.UnavailableForLegalReasons",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 65,
+      "symbol": "GLHTTPStatusCode.InternalServerError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 66,
+      "symbol": "GLHTTPStatusCode.NotImplemented",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 67,
+      "symbol": "GLHTTPStatusCode.BadGateway",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 68,
+      "symbol": "GLHTTPStatusCode.ServiceUnavailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 69,
+      "symbol": "GLHTTPStatusCode.GatewayTimeout",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 70,
+      "symbol": "GLHTTPStatusCode.HTTPVersionNotSupported",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 71,
+      "symbol": "GLHTTPStatusCode.VariantAlsoNegotiates",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 72,
+      "symbol": "GLHTTPStatusCode.InsufficientStorage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 73,
+      "symbol": "GLHTTPStatusCode.LoopDetected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 74,
+      "symbol": "GLHTTPStatusCode.NotExtended",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLHTTPStatusCode.swift",
+      "line": 75,
+      "symbol": "GLHTTPStatusCode.NetworkAuthenticationRequired",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/NetworkResponseHandler/StatusCodeHandler/GLResponseStatusCodeHandlerDelegate.swift",
+      "line": 11,
+      "symbol": "GLResponseStatusCodeHandlerDelegate.callback",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLConnectionStatusProvider.swift",
+      "line": 11,
+      "symbol": "GLConnectionStatusProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLConnectionStatusProvider.swift",
+      "line": 12,
+      "symbol": "GLConnectionStatusProvider.getConnectionStatus()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLConnectionStatusProvider.swift",
+      "line": 27,
+      "symbol": "SCNetworkReachabilityStatusProvider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 11,
+      "symbol": "GLConnectionStatus.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 12,
+      "symbol": "GLConnectionStatus.notConnected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 13,
+      "symbol": "GLConnectionStatus.connected",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 44,
+      "symbol": "GLConnectionType.wifi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 45,
+      "symbol": "GLConnectionType.cellular",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 59,
+      "symbol": "GLInternetStatus.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 60,
+      "symbol": "GLInternetStatus.online",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 61,
+      "symbol": "GLInternetStatus.offline",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 77,
+      "symbol": "GLServiceStatus.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 78,
+      "symbol": "GLServiceStatus.accessible",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 79,
+      "symbol": "GLServiceStatus.notAccessible",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 95,
+      "symbol": "GLNetworkStatus.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 96,
+      "symbol": "GLNetworkStatus.available",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking/GLNetworking/Reachability/GLReachabilityHelpers.swift",
+      "line": 97,
+      "symbol": "GLNetworkStatus.notAvailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/lukasvavrek/Projects/Bakalarka/GLNetworking"
+}

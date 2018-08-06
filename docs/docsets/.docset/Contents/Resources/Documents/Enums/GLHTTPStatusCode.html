@@ -1,0 +1,2054 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GLHTTPStatusCode Enumeration Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Enum/GLHTTPStatusCode" class="dashAnchor"></a>
+    <a title="GLHTTPStatusCode Enumeration Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GLHTTPStatusCode Enumeration Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/GLAsyncResponseStatusCodeHandler.html">GLAsyncResponseStatusCodeHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLAuthHandler.html">GLAuthHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLConnectionStatusDefaultProvider.html">GLConnectionStatusDefaultProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLMulticast.html">GLMulticast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLMulticastDelegate.html">GLMulticastDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLNetworkManager.html">GLNetworkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLNetworkResponseHandler.html">GLNetworkResponseHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLReachability.html">GLReachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLReachabilityMulticastCenter.html">GLReachabilityMulticastCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLRequest.html">GLRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponse.html">GLResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeDefaultHandler.html">GLResponseStatusCodeDefaultHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeHandlerDelegate.html">GLResponseStatusCodeHandlerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeHandlersContainer.html">GLResponseStatusCodeHandlersContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SCNetworkReachabilityStatusProvider.html">SCNetworkReachabilityStatusProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/GLConnectionStatus.html">GLConnectionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLConnectionType.html">GLConnectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLHTTPStatusCode.html">GLHTTPStatusCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLInternetStatus.html">GLInternetStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLNetworkStatus.html">GLNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLServiceStatus.html">GLServiceStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GLAuthDelegate.html">GLAuthDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLConnectionStatusProvider.html">GLConnectionStatusProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLReachabilityDelegate.html">GLReachabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLRequestAuthenticator.html">GLRequestAuthenticator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLResponseStatusCodeHandler.html">GLResponseStatusCodeHandler</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking14GLEmptyHandlera">GLEmptyHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking19GLMulticastCallbacka">GLMulticastCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking26GLRequestCompletedCallbacka">GLRequestCompletedCallback</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GLHTTPStatusCode</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">GLHTTPStatusCode</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                </div>
+              </div>
+            <p>HTTP Response Status Code representation.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO8ContinueA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Continue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO8ContinueA2CmF">Continue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Continue</span> <span class="o">=</span> <span class="mi">100</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO18SwitchingProtocolsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/SwitchingProtocols" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO18SwitchingProtocolsA2CmF">SwitchingProtocols</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">SwitchingProtocols</span> <span class="o">=</span> <span class="mi">101</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO10ProcessingA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Processing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO10ProcessingA2CmF">Processing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Processing</span> <span class="o">=</span> <span class="mi">102</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO2OkA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Ok" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO2OkA2CmF">Ok</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Ok</span> <span class="o">=</span> <span class="mi">200</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO7CreatedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Created" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO7CreatedA2CmF">Created</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Created</span> <span class="o">=</span> <span class="mi">201</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO8AcceptedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Accepted" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO8AcceptedA2CmF">Accepted</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Accepted</span> <span class="o">=</span> <span class="mi">202</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO27NonAuthoritativeInformationA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NonAuthoritativeInformation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO27NonAuthoritativeInformationA2CmF">NonAuthoritativeInformation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NonAuthoritativeInformation</span> <span class="o">=</span> <span class="mi">203</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO9NoContentA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NoContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO9NoContentA2CmF">NoContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NoContent</span> <span class="o">=</span> <span class="mi">204</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO12ResetContentA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ResetContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO12ResetContentA2CmF">ResetContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">ResetContent</span> <span class="o">=</span> <span class="mi">205</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO14PartialContentA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/PartialContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO14PartialContentA2CmF">PartialContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">PartialContent</span> <span class="o">=</span> <span class="mi">206</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO11MultiStatusA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/MultiStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO11MultiStatusA2CmF">MultiStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">MultiStatus</span> <span class="o">=</span> <span class="mi">207</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO15AlreadyReportedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/AlreadyReported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO15AlreadyReportedA2CmF">AlreadyReported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">AlreadyReported</span> <span class="o">=</span> <span class="mi">208</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO6IMUsedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/IMUsed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO6IMUsedA2CmF">IMUsed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">IMUsed</span> <span class="o">=</span> <span class="mi">226</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO15MultipleChoicesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/MultipleChoices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO15MultipleChoicesA2CmF">MultipleChoices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">MultipleChoices</span> <span class="o">=</span> <span class="mi">300</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO16MovedPermanentlyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/MovedPermanently" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO16MovedPermanentlyA2CmF">MovedPermanently</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">MovedPermanently</span> <span class="o">=</span> <span class="mi">301</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO5FoundA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Found" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO5FoundA2CmF">Found</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Found</span> <span class="o">=</span> <span class="mi">302</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO8SeeOtherA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/SeeOther" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO8SeeOtherA2CmF">SeeOther</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">SeeOther</span> <span class="o">=</span> <span class="mi">303</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO11NotModifiedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NotModified" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO11NotModifiedA2CmF">NotModified</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NotModified</span> <span class="o">=</span> <span class="mi">304</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO8UseProxyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/UseProxy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO8UseProxyA2CmF">UseProxy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">UseProxy</span> <span class="o">=</span> <span class="mi">305</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO11SwitchProxyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/SwitchProxy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO11SwitchProxyA2CmF">SwitchProxy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">SwitchProxy</span> <span class="o">=</span> <span class="mi">306</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO17TemporaryRedirectA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/TemporaryRedirect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO17TemporaryRedirectA2CmF">TemporaryRedirect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">TemporaryRedirect</span> <span class="o">=</span> <span class="mi">307</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO17PermanentRedirectA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/PermanentRedirect" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO17PermanentRedirectA2CmF">PermanentRedirect</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">PermanentRedirect</span> <span class="o">=</span> <span class="mi">308</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO10BadRequestA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/BadRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO10BadRequestA2CmF">BadRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">BadRequest</span> <span class="o">=</span> <span class="mi">400</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO12UnauthorizedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Unauthorized" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO12UnauthorizedA2CmF">Unauthorized</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Unauthorized</span> <span class="o">=</span> <span class="mi">401</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO15PaymentRequiredA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/PaymentRequired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO15PaymentRequiredA2CmF">PaymentRequired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">PaymentRequired</span> <span class="o">=</span> <span class="mi">402</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO9ForbiddenA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Forbidden" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO9ForbiddenA2CmF">Forbidden</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Forbidden</span> <span class="o">=</span> <span class="mi">403</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO8NotFoundA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NotFound" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO8NotFoundA2CmF">NotFound</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NotFound</span> <span class="o">=</span> <span class="mi">404</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO16MethodNotAllowedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/MethodNotAllowed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO16MethodNotAllowedA2CmF">MethodNotAllowed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">MethodNotAllowed</span> <span class="o">=</span> <span class="mi">405</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO13NotAcceptableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NotAcceptable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO13NotAcceptableA2CmF">NotAcceptable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NotAcceptable</span> <span class="o">=</span> <span class="mi">406</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO27ProxyAuthenticationRequiredA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ProxyAuthenticationRequired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO27ProxyAuthenticationRequiredA2CmF">ProxyAuthenticationRequired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">ProxyAuthenticationRequired</span> <span class="o">=</span> <span class="mi">407</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO14RequestTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/RequestTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO14RequestTimeoutA2CmF">RequestTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">RequestTimeout</span> <span class="o">=</span> <span class="mi">408</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO8ConflictA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Conflict" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO8ConflictA2CmF">Conflict</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Conflict</span> <span class="o">=</span> <span class="mi">409</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO4GoneA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Gone" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO4GoneA2CmF">Gone</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Gone</span> <span class="o">=</span> <span class="mi">410</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO14LengthRequiredA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/LengthRequired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO14LengthRequiredA2CmF">LengthRequired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">LengthRequired</span> <span class="o">=</span> <span class="mi">411</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO18PreconditionFailedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/PreconditionFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO18PreconditionFailedA2CmF">PreconditionFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">PreconditionFailed</span> <span class="o">=</span> <span class="mi">412</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO15PayloadTooLargeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/PayloadTooLarge" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO15PayloadTooLargeA2CmF">PayloadTooLarge</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">PayloadTooLarge</span> <span class="o">=</span> <span class="mi">413</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO10URITooLongA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/URITooLong" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO10URITooLongA2CmF">URITooLong</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">URITooLong</span> <span class="o">=</span> <span class="mi">414</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO20UnsupportedMediaTypeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/UnsupportedMediaType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO20UnsupportedMediaTypeA2CmF">UnsupportedMediaType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">UnsupportedMediaType</span> <span class="o">=</span> <span class="mi">415</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO19RangeNotSatisfiableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/RangeNotSatisfiable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO19RangeNotSatisfiableA2CmF">RangeNotSatisfiable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">RangeNotSatisfiable</span> <span class="o">=</span> <span class="mi">416</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO17ExpectationFailedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ExpectationFailed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO17ExpectationFailedA2CmF">ExpectationFailed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">ExpectationFailed</span> <span class="o">=</span> <span class="mi">417</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO9ImATeapotA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ImATeapot" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO9ImATeapotA2CmF">ImATeapot</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">ImATeapot</span> <span class="o">=</span> <span class="mi">418</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO16MisdirectRequestA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/MisdirectRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO16MisdirectRequestA2CmF">MisdirectRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">MisdirectRequest</span> <span class="o">=</span> <span class="mi">421</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO19UnprocessableEntityA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/UnprocessableEntity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO19UnprocessableEntityA2CmF">UnprocessableEntity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">UnprocessableEntity</span> <span class="o">=</span> <span class="mi">422</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO6LockedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/Locked" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO6LockedA2CmF">Locked</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">Locked</span> <span class="o">=</span> <span class="mi">423</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO16FailedDependencyA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/FailedDependency" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO16FailedDependencyA2CmF">FailedDependency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">FailedDependency</span> <span class="o">=</span> <span class="mi">424</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO15UpgradeRequiredA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/UpgradeRequired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO15UpgradeRequiredA2CmF">UpgradeRequired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">UpgradeRequired</span> <span class="o">=</span> <span class="mi">426</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO20PreconditionRequiredA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/PreconditionRequired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO20PreconditionRequiredA2CmF">PreconditionRequired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">PreconditionRequired</span> <span class="o">=</span> <span class="mi">428</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO15TooManyRequestsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/TooManyRequests" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO15TooManyRequestsA2CmF">TooManyRequests</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">TooManyRequests</span> <span class="o">=</span> <span class="mi">429</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO27RequestHeaderFieldsTooLargeA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/RequestHeaderFieldsTooLarge" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO27RequestHeaderFieldsTooLargeA2CmF">RequestHeaderFieldsTooLarge</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">RequestHeaderFieldsTooLarge</span> <span class="o">=</span> <span class="mi">431</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO26UnavailableForLegalReasonsA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/UnavailableForLegalReasons" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO26UnavailableForLegalReasonsA2CmF">UnavailableForLegalReasons</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">UnavailableForLegalReasons</span> <span class="o">=</span> <span class="mi">451</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO19InternalServerErrorA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/InternalServerError" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO19InternalServerErrorA2CmF">InternalServerError</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">InternalServerError</span> <span class="o">=</span> <span class="mi">500</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO14NotImplementedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NotImplemented" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO14NotImplementedA2CmF">NotImplemented</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NotImplemented</span> <span class="o">=</span> <span class="mi">501</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO10BadGatewayA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/BadGateway" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO10BadGatewayA2CmF">BadGateway</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">BadGateway</span> <span class="o">=</span> <span class="mi">502</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO18ServiceUnavailableA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/ServiceUnavailable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO18ServiceUnavailableA2CmF">ServiceUnavailable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">ServiceUnavailable</span> <span class="o">=</span> <span class="mi">503</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO14GatewayTimeoutA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/GatewayTimeout" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO14GatewayTimeoutA2CmF">GatewayTimeout</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">GatewayTimeout</span> <span class="o">=</span> <span class="mi">504</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO23HTTPVersionNotSupportedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/HTTPVersionNotSupported" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO23HTTPVersionNotSupportedA2CmF">HTTPVersionNotSupported</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">HTTPVersionNotSupported</span> <span class="o">=</span> <span class="mi">505</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO21VariantAlsoNegotiatesA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/VariantAlsoNegotiates" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO21VariantAlsoNegotiatesA2CmF">VariantAlsoNegotiates</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">VariantAlsoNegotiates</span> <span class="o">=</span> <span class="mi">506</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO19InsufficientStorageA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/InsufficientStorage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO19InsufficientStorageA2CmF">InsufficientStorage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">InsufficientStorage</span> <span class="o">=</span> <span class="mi">507</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO12LoopDetectedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/LoopDetected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO12LoopDetectedA2CmF">LoopDetected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">LoopDetected</span> <span class="o">=</span> <span class="mi">508</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO11NotExtendedA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NotExtended" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO11NotExtendedA2CmF">NotExtended</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NotExtended</span> <span class="o">=</span> <span class="mi">510</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking16GLHTTPStatusCodeO29NetworkAuthenticationRequiredA2CmF"></a>
+                    <a name="//apple_ref/swift/Element/NetworkAuthenticationRequired" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking16GLHTTPStatusCodeO29NetworkAuthenticationRequiredA2CmF">NetworkAuthenticationRequired</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">case</span> <span class="kt">NetworkAuthenticationRequired</span> <span class="o">=</span> <span class="mi">511</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://lukasvavrek.com" target="_blank" rel="external">Lukáš Vavrek</a>. All rights reserved. (Last updated: 2018-08-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

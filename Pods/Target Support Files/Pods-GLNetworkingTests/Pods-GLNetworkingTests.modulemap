@@ -1,0 +1,6 @@
+framework module Pods_GLNetworkingTests {
+  umbrella header "Pods-GLNetworkingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

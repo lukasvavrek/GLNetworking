@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GLRequest Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/GLRequest" class="dashAnchor"></a>
+    <a title="GLRequest Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GLRequest Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/GLAsyncResponseStatusCodeHandler.html">GLAsyncResponseStatusCodeHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLAuthHandler.html">GLAuthHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLConnectionStatusDefaultProvider.html">GLConnectionStatusDefaultProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLMulticast.html">GLMulticast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLMulticastDelegate.html">GLMulticastDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLNetworkManager.html">GLNetworkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLNetworkResponseHandler.html">GLNetworkResponseHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLReachability.html">GLReachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLReachabilityMulticastCenter.html">GLReachabilityMulticastCenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLRequest.html">GLRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponse.html">GLResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeDefaultHandler.html">GLResponseStatusCodeDefaultHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeHandlerDelegate.html">GLResponseStatusCodeHandlerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GLResponseStatusCodeHandlersContainer.html">GLResponseStatusCodeHandlersContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SCNetworkReachabilityStatusProvider.html">SCNetworkReachabilityStatusProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/GLConnectionStatus.html">GLConnectionStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLConnectionType.html">GLConnectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLHTTPStatusCode.html">GLHTTPStatusCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLInternetStatus.html">GLInternetStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLNetworkStatus.html">GLNetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GLServiceStatus.html">GLServiceStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GLAuthDelegate.html">GLAuthDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLConnectionStatusProvider.html">GLConnectionStatusProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLReachabilityDelegate.html">GLReachabilityDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLRequestAuthenticator.html">GLRequestAuthenticator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GLResponseStatusCodeHandler.html">GLResponseStatusCodeHandler</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking14GLEmptyHandlera">GLEmptyHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking19GLMulticastCallbacka">GLMulticastCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:12GLNetworking26GLRequestCompletedCallbacka">GLRequestCompletedCallback</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GLRequest</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">GLRequest</span></code></pre>
+
+                </div>
+              </div>
+            <p>HTTP Request representation used in GLNetworking framework.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC6createACSgSS3url_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(url:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC6createACSgSS3url_tFZ">create(url:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates new instance of GLRequest.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>url</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>URL of the destination.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC6createAC10Foundation10URLRequestV10urlRequest_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/create(urlRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC6createAC10Foundation10URLRequestV10urlRequest_tFZ">create(urlRequest:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates new instance of GLRequest.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">create</span><span class="p">(</span><span class="nv">urlRequest</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>urlRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>URLRequest to start configuration with.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC7successACyAA10GLResponseCcF"></a>
+                    <a name="//apple_ref/swift/Method/success(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC7successACyAA10GLResponseCcF">success(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Register success callback. Existing callbacks will be preserved.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">success</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:12GLNetworking26GLRequestCompletedCallbacka">GLRequestCompletedCallback</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC5errorACyAA10GLResponseCcF"></a>
+                    <a name="//apple_ref/swift/Method/error(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC5errorACyAA10GLResponseCcF">error(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Register error callback. Existing callbacks will be preserved.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">error</span><span class="p">(</span><span class="n">_</span> <span class="nv">callback</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:12GLNetworking26GLRequestCompletedCallbacka">GLRequestCompletedCallback</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC8jsonBodyACs10DictionaryVySSypGF"></a>
+                    <a name="//apple_ref/swift/Method/jsonBody(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC8jsonBodyACs10DictionaryVySSypGF">jsonBody(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds a dictionary data to the requests body and sets the content type header</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">jsonBody</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Any</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC10httpMethodACSSSgF"></a>
+                    <a name="//apple_ref/swift/Method/httpMethod(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC10httpMethodACSSSgF">httpMethod(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the HTTP request method.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">httpMethod</span><span class="p">(</span><span class="n">_</span> <span class="nv">httpMethod</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC8httpBodyAC10Foundation4DataVSgF"></a>
+                    <a name="//apple_ref/swift/Method/httpBody(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC8httpBodyAC10Foundation4DataVSgF">httpBody(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the data sent as the message body of the request, such as for an HTTP POST request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">httpBody</span><span class="p">(</span><span class="n">_</span> <span class="nv">httpBody</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC14httpBodyStreamACSo05InputE0CSgF"></a>
+                    <a name="//apple_ref/swift/Method/httpBodyStream(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC14httpBodyStreamACSo05InputE0CSgF">httpBodyStream(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the request&rsquo;s HTTP body stream.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">httpBodyStream</span><span class="p">(</span><span class="n">_</span> <span class="nv">httpBodyStream</span><span class="p">:</span> <span class="kt">InputStream</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC15mainDocumentURLAC10Foundation0E0VSgF"></a>
+                    <a name="//apple_ref/swift/Method/mainDocumentURL(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC15mainDocumentURLAC10Foundation0E0VSgF">mainDocumentURL(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the main document URL associated with this request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">mainDocumentURL</span><span class="p">(</span><span class="n">_</span> <span class="nv">mainDocumentURL</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC8setValueACSSSg_SS18forHTTPHeaderFieldtF"></a>
+                    <a name="//apple_ref/swift/Method/setValue(_:forHTTPHeaderField:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC8setValueACSSSg_SS18forHTTPHeaderFieldtF">setValue(_:forHTTPHeaderField:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets a value for a header field.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">setValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="n">forHTTPHeaderField</span> <span class="nv">httpHeaderField</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12GLNetworking9GLRequestC18setTimeoutIntervalACSdF"></a>
+                    <a name="//apple_ref/swift/Method/setTimeoutInterval(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12GLNetworking9GLRequestC18setTimeoutIntervalACSdF">setTimeoutInterval(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the timeout interval of the request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">@discardableResult</span> <span class="kd">public</span> <span class="kd">func</span> <span class="nf">setTimeoutInterval</span><span class="p">(</span><span class="n">_</span> <span class="nv">timeoutInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="http://lukasvavrek.com" target="_blank" rel="external">Lukáš Vavrek</a>. All rights reserved. (Last updated: 2018-08-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ReachabilityExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="yz8-hw-Cn2">
+                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="KiJ-bf-ZCL">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="582.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-tQ-I42">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="232.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reachability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5d-ou-f5g" customClass="GLSectionLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="8" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network Connectivity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnR-K3-Dqe" userLabel="Label 1" customClass="GLTitleLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="32.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzz-3U-xP3" userLabel="Network Connection Status Label" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="57" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Internet Connectivity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l21-7i-2AA" userLabel="Label 3" customClass="GLTitleLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="81.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIX-rH-iOS" userLabel="Internet Connectivity Status Label" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="106" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Server Accessibility" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rka-5d-57a" userLabel="Label 5" customClass="GLTitleLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="130.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpw-Q3-cpG" userLabel="Server Availability Status Label" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="155" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network Availability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzK-RY-jzu" userLabel="Label 7" customClass="GLTitleLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="179.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcm-wq-rnX" userLabel="Network Availability Status Label" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="204" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tcq-qv-Vlu" userLabel="Separator">
+                                                <rect key="frame" x="0.0" y="232.5" width="375" height="1"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgr-ob-dpx">
+                                                        <rect key="frame" x="50" y="0.0" width="275" height="1"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="Xgr-ob-dpx" firstAttribute="top" secondItem="Tcq-qv-Vlu" secondAttribute="top" id="7hI-BY-KGe"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Xgr-ob-dpx" secondAttribute="bottom" id="Geh-YZ-2oI"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Xgr-ob-dpx" secondAttribute="trailing" constant="50" id="Lzg-yU-5uy"/>
+                                                    <constraint firstItem="Xgr-ob-dpx" firstAttribute="leading" secondItem="Tcq-qv-Vlu" secondAttribute="leading" constant="50" id="VzB-cF-Ncz"/>
+                                                    <constraint firstAttribute="height" constant="1" id="mos-v0-aeh"/>
+                                                </constraints>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gSM-33-8Ec">
+                                                <rect key="frame" x="0.0" y="233.5" width="375" height="349"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Authentication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqo-ua-Epn" customClass="GLSectionLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="8" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Automatic authentication" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTf-QX-v9h" userLabel="Label 1" customClass="GLTitleLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="32.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnP-5i-ckE" userLabel="Auto Auth Status" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="57" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQE-q1-WUI" userLabel="Turn On" customClass="GLActionButton" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="81.5" width="311" height="34"/>
+                                                        <state key="normal" title="Turn ON auto authentication"/>
+                                                        <connections>
+                                                            <action selector="turnOnAutoAuthentication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FGN-K6-Td9"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pd8-NS-KUs" userLabel="Turn Off" customClass="GLActionButton" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="119.5" width="311" height="34"/>
+                                                        <state key="normal" title="Turn OFF auto authentication"/>
+                                                        <connections>
+                                                            <action selector="turnOffAutoAuthentication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WRI-Z6-GMG"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Authentication status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jK1-9e-laq" userLabel="Label 3" customClass="GLTitleLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="157.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6P-oy-8gQ" userLabel="Authentication Status Lbl" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="182" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LbP-oN-dkB" customClass="GLActionButton" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="206.5" width="311" height="34"/>
+                                                        <state key="normal" title="Login"/>
+                                                        <connections>
+                                                            <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVH-nx-P2Q"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDf-ml-0dP" userLabel="Logout" customClass="GLActionButton" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="244.5" width="311" height="34"/>
+                                                        <state key="normal" title="Logout"/>
+                                                        <connections>
+                                                            <action selector="logout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ap-gw-MA9"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3E-kM-xiY" userLabel="Get auth content - OK" customClass="GLActionButton" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="282.5" width="311" height="34"/>
+                                                        <state key="normal" title="Get authorized content"/>
+                                                        <connections>
+                                                            <action selector="getAuthorizedContent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F5e-oU-Iko"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Undefined" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDS-za-veK" userLabel="Response 1" customClass="GLValueLabel" customModule="ReachabilityExample" customModuleProvider="target">
+                                                        <rect key="frame" x="32" y="320.5" width="311" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="LbP-oN-dkB" firstAttribute="leading" secondItem="gSM-33-8Ec" secondAttribute="leading" constant="32" id="SOv-fa-xQc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="LbP-oN-dkB" secondAttribute="trailing" constant="32" id="xUg-fx-OSb"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="KiJ-bf-ZCL" secondAttribute="trailing" id="4fJ-eE-anD"/>
+                                    <constraint firstItem="KiJ-bf-ZCL" firstAttribute="width" secondItem="yz8-hw-Cn2" secondAttribute="width" id="ATR-lV-EGc"/>
+                                    <constraint firstItem="KiJ-bf-ZCL" firstAttribute="top" secondItem="yz8-hw-Cn2" secondAttribute="top" id="GyZ-YP-YBv"/>
+                                    <constraint firstItem="KiJ-bf-ZCL" firstAttribute="leading" secondItem="yz8-hw-Cn2" secondAttribute="leading" id="Xqw-aI-sJZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KiJ-bf-ZCL" secondAttribute="bottom" id="u9P-ta-Bgl"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yz8-hw-Cn2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6oB-3X-BKa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yz8-hw-Cn2" secondAttribute="bottom" id="K2g-22-tji"/>
+                            <constraint firstItem="yz8-hw-Cn2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sbw-H7-N8B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yz8-hw-Cn2" secondAttribute="trailing" id="buW-s2-iGA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="authenticationStatusLbl" destination="a6P-oy-8gQ" id="mgL-Pe-oOC"/>
+                        <outlet property="autoAuthStatusLbl" destination="vnP-5i-ckE" id="2RC-h2-Y30"/>
+                        <outlet property="fetchAuthContentLbl" destination="HDS-za-veK" id="Tbu-To-vuQ"/>
+                        <outlet property="internetConnectivityStatusLbl" destination="PIX-rH-iOS" id="f5f-xL-PKx"/>
+                        <outlet property="networkAvailabilityStatusLbl" destination="vcm-wq-rnX" id="foO-dw-dZn"/>
+                        <outlet property="networkConnectionStatusLbl" destination="Hzz-3U-xP3" id="I3C-gt-0lS"/>
+                        <outlet property="serverAvailabilityStatusLbl" destination="Jpw-Q3-cpG" id="1Us-CD-Y5T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
